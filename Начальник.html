@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">       
+        <title>Страница ни о чём...</title>
+        <style>
+            
+            h3 {
+                color: white;
+            }
+            
+            h1 {
+                color: white;
+                height: 10vh;
+                width: 10vh;
+                padding: 0;
+            }
+            
+            body{
+                background-color: black;
+                height: auto;
+            }
+            
+            header {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+/*                justify-content: space-around;*/
+            }
+            
+            header>img {
+                width: 20vh;
+                transition: all 5s 0.1s ease;
+                
+            }
+            header>img:hover {
+                transform: rotate(360deg);
+            }
+            
+            header>h1 {
+                width: 80vh;
+                text-align: center;
+                font-size: 70px;
+                margin: auto;
+            }
+            main {
+                text-align: center;
+                font-size: 35px;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-around;
+            }
+            .card {
+                width: calc(100%/3-40px);
+/*                border: 1px solid red;*/
+                margin: 1vh 1vw;
+            }
+            .card>img {
+                width: 80%;
+                margin: 0 auto;
+            }
+        </style>
+   </head>
+   <body>
+       <header>
+           <img src="https://diskomir.ru/upload/iblock/e93/e93f65fadbd8ce0999d9e86b68905897.jpg">
+           <h1>Тетрадь Смерти</h1>
+           
+       </header>
+       <main>
+            <div class="container">
+                <div class="card">
+                   <h3>Аниме</h3>
+                    <a href="index11.html" target="_blank"><img src="Project/%D1%80%D1%8E%D0%BA%20(1).jpg"></a>
+                    <p>Инфо об аниме</p>
+                </div>
+                <div class="card">
+                   <h3>Персонажи</h3>
+                    <img src="Project/%D0%BB%D0%B0%D0%B9%D1%82%20(1).jpg" alt="">
+                    <p>Краткая инфо о персонажах</p>
+                </div>
+                <div class="card">
+                   <h3>Тетрадь</h3>
+                    <img src="Project/%D0%9B%20(1).jpg" alt="">
+                    <p>История Тетради</p>
+                </div>
+                
+            </div>
+       </main>
+       <footer>
+           
+       </footer>
+       
+        
+ 
+   </body>
+    
+</html>
